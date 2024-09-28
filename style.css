@@ -4,6 +4,10 @@
     --fg: #eeebd3;
 }
 
+* {
+    outline: 1px red dashed;
+}
+
 body {
     background-color: var(--bg);
 }
