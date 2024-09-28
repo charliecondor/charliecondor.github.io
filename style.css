@@ -4,7 +4,10 @@
     --fg: #eeebd3;
 }
 
+
+
 * {
+    box-sizing: border-box;
     outline: 1px red dashed;
 }
 
@@ -14,4 +17,26 @@ body {
 
 .fg {
     background-color: var(--fg);
+}
+
+#test {
+    float: left;
+}
+
+@media (min-width: 320px) {
+    :root {
+        --bg: black;
+    }
+}
+
+@media (orientation: landscape) {
+    :root {
+        --bg: red;
+    }
+}
+
+@media (min-width: 1025px) {
+    :root {
+        --bg: green;
+    }
 }
